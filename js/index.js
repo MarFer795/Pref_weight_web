@@ -13,6 +13,7 @@ const modeloElement = document.getElementById("modelo");
 const problemaElement = document.getElementById("problema");
 const maquinaElement = document.getElementById("maquina");
 const opElement = document.getElementById("op");
+const MoldesElement = document.getElementById("Moldes");
 const comentarioElement = document.getElementById("comentario");
 const comentarioElement1 = document.getElementById("comentario1");
 const comentarioElement2 = document.getElementById("comentario2");
@@ -32,6 +33,7 @@ function createTarjeta(turno,index){
     <p>Peso Pref: ${turno.modelo}</p>
     <p>Peso 30%: ${turno.problema}</p>
     <p>Maquina: ${turno.maquina}</p>
+    <p>Moldes: ${turno.moldes}</p>
     <p>OP: ${turno.op !== undefined ? turno.op : "OP no definida"}</p>
   `
   nuevaTarjeta.addEventListener("click", ()=> actualizarDetalle(index))
