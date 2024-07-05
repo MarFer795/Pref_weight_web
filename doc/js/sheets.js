@@ -24,7 +24,7 @@ async function getTurnos() {
     const nuevoTurno = {
       id: fila[0],
       maquina: fila[1],
-      molde: fila[2],
+      moldes: fila[2],
       op : fila [3],
       cliente: fila[4],
       email: fila[5],
@@ -46,7 +46,7 @@ async function editTurno(id, contenido) {
   const update = [
     contenido.id,
     contenido.maquina,
-    contenido.molde,
+    contenido.moldes,
     contenido.Op,
     contenido.cliente,
     contenido.email,
