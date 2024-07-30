@@ -52,7 +52,7 @@ async function editTurno(id, contenido) {
     contenido.email,
     contenido.modelo,
     contenido.problema,
-    new Date().toISOString(),
+    new Date().toLocaleDateString(),
     contenido.comentario,
     contenido.comentario1,
     contenido.comentario2,
