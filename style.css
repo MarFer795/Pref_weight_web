@@ -1,9 +1,9 @@
 :root{
-  --color-text-titulos: #ffffff;
+  --color-text-titulos: #E6FF94;
   --color-texto: rgba(255, 255, 255, 0.867);
   --color-acento: #E6E4C6;
-  --color-fondo: #0E3A47;
-  --color-fondo-tarjeta: #ffffff27;
+  --color-fondo: #006769;
+  --color-fondo-tarjeta: #04293A;
 }
 
 body{
